@@ -77,7 +77,7 @@ gulp.task('js',function() {
 gulp.task('default',function() {
 
     browserSync.init({
-        server: './dist'
+        server: dist
     })
 
     gulp.watch([src + '*.html'],['html']);
